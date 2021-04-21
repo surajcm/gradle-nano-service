@@ -2,9 +2,9 @@ apply plugin: 'java'
 apply plugin: 'application'
 apply plugin: 'idea'
 
-mainClassName = 'com.expedia.nano.NanoMain'
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+mainClassName = 'com.suraj.nano.NanoMain'
+sourceCompatibility = '11'
+
 version = '1.0'
 
 repositories {
@@ -12,6 +12,6 @@ repositories {
 }
 
 dependencies {
-    compile 'commons-httpclient:commons-httpclient:3.1'
+    implementation 'commons-httpclient:commons-httpclient:3.1'
 }
 
